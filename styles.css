@@ -6,6 +6,14 @@
     background-color: #071629;
 }
 
+.bg-image-2 {
+    background-image: url(./images/pic_2.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    background-color: #071629;
+}
+
 .nav-item {
     font-size: 12px;
     font-family: 'Source Sans Pro', sans-serif;
@@ -204,7 +212,7 @@
     color: #071629;
 }
 .container-text {
-    margin-top: 87px;
+    margin-top: 86px;
 }
 .card-title {
     font-family: 'Source Sans Pro', sans-serif;
@@ -254,14 +262,14 @@ strong {
     font-weight: bold;
     color: #C271FF;
 }
+
 .text-div-images {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: Source Sans Pro;
     font-weight: normal;
     font-style: normal;
     font-size: 32px;
     line-height: 40px;
     text-align: center;
- 
     margin-bottom: 87px;
 }
 
@@ -325,9 +333,7 @@ strong {
 
 /* latest styles */
 
-.latest {
-    height: 624px;
-}
+
 
 /* footer styles */
 
@@ -379,8 +385,7 @@ strong {
     font-style: normal;
     line-height: 20px;
     color: #071629;
-    margin-top: 74px;
-    margin-right: 214px;
+    margin-right: 230px;
     margin-bottom: 30px;
     max-width: 350px;
     min-width: 137.21px;
@@ -394,7 +399,7 @@ strong {
     line-height: 24px;
     color: rgba(7, 22, 41, 0.5016);
     max-width: 350px;
-
+    margin-bottom: 74px;
 }
 
 .FAQ-tittle {
@@ -404,6 +409,7 @@ strong {
     line-height: 75px;
     color: #071629;
     margin-top: 74px;
+    margin-bottom: 74px;
 }
 
 /* Header Courses */
@@ -413,11 +419,11 @@ strong {
     background-size: cover;
     background-position: top center;
     background-color: #071629;
-    min-height: 216px;
+    max-height: 216px;
 }
 
 .text-header-courses {
-    font-family: Coiny;
+    font-family: 'Coiny';
     font-style: normal;
     font-weight: normal;
     font-size: 32px;
@@ -428,6 +434,26 @@ strong {
 
 /* Courses Search Filter */
 
-.div-search-filter {
+.filters {
     background-color: #C271FF;
+    height: 138px;
+}
+
+/* videos section */
+
+.videos-section {
+    min-height: 1264;
+}
+
+.text-video {
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgba(7, 22, 41, 0.296247);
+    margin-top: 47px;
+}
+
+.card-custom {
+    margin-top: 20px;
 }
