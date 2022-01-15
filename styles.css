@@ -452,8 +452,74 @@ strong {
     line-height: 20px;
     color: rgba(7, 22, 41, 0.296247);
     margin-top: 47px;
+    margin-bottom: 33px;
 }
 
 .card-custom {
-    margin-top: 20px;
+    margin-bottom: 35px;
 }
+
+/* prices section */
+
+.prices {
+    min-height: 760px;
+}
+
+.header-3 {
+    font-size: 32px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    color: white;
+    line-height: 40px;
+    margin-top: 136px;
+    margin-bottom: 75px;
+}
+
+.bold-text-3 {
+    font-size: 32px;
+    font-family: 'Coiny';
+    font-weight: 400;
+    color: white;
+    line-height: 35px;
+    margin-top: 136px;
+    margin-bottom: 75px;
+
+}
+
+.smile-3 {
+    height: 28px;
+}
+
+.header-4 {
+    font-size: 24px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    color: white;
+    line-height: 30px;
+    margin-top: 136px;
+    margin-bottom: 50px;
+}
+
+.bold-text-4 {
+    font-size: 24px;
+    font-family: 'Coiny';
+    font-weight: 400;
+    color: white;
+    line-height: 26px;
+    margin-top: 136px;
+    margin-bottom: 50px;
+
+}
+
+.smile-4 {
+    height: 24px;
+}
+
+.header-5 {
+    font-size: 60px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    color: white;
+    line-height: 75px;
+}
+
