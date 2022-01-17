@@ -27,8 +27,8 @@
 <body>
   <!-- header section -->
   <header class="bg-image-2 ">
-    <nav class="navbar navbar-expand-md navbar-dark  container vertical-center">
-      <a class="nav-brand d-none d-md-block" href="#"><img class="nav-icon-1 mr-3" src="./images/smile_off.png"><img
+    <nav class="navbar navbar-expand-md navbar-dark pt-4 container vertical-center">
+      <a class="nav-brand d-none d-md-block" href="./homepage.html"><img class="nav-icon-1 mr-3" src="./images/smile_off.png"><img
           class="nav-icon-2" src="./images/logo.png"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,16 +37,16 @@
         <span class="line-3"></span>
       </button>
       <div class="col mt-4 mr-4">
-        <a class="nav-brand d-md-none row justify-content-center" href="#"><img class="nav-icon-1"
+        <a class="nav-brand d-md-none row justify-content-center" href="./homepage.html"><img class="nav-icon-1"
             src="./images/smile_off.png"></a>
         <div class="w-100"></div>
-        <a class="nav-brand d-md-none row justify-content-center" href="#"><img class="nav-icon-2"
+        <a class="nav-brand d-md-none row justify-content-center" href="./homepage.html"><img class="nav-icon-2"
             src="./images/logo.png"></a>
       </div>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item"><a class="nav-link text-white" href="#">COURSES</a></li>
-          <li class="nav-item"><a class="nav-link text-white" href="#">PRICING</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="./courses.html">COURSES</a></li>
+          <li class="nav-item"><a class="nav-link selected" href="./pricing.html">PRICING</a></li>
           <li class="nav-item"><a class="nav-link text-white" href="#">LOGIN</a></li>
         </ul>
       </div>
@@ -63,9 +63,69 @@
       <h1 class="header-5 mb-5 row text-nowrap">Go pro!</h1>
 
     </div>
-    <!-- prices section -->
-    <div class="prices">
 
+    <!-- prices section -->
+    <div class="d-flex row justify-content-center buttons-container">
+      <div class="col-md-4 ">
+      </div>
+      <div class="col-6 col-md-4 button-container d-flex flex-column justify-content-center">
+        <button class="button">BUY 3 MONTHS</button>
+        <h1 class="text-center text-white">$3.60</h1>
+        <p class="text-center text-white">$1.20/month</p>
+      </div>
+      <div class="col-6 col-md-4 button-container d-flex flex-column justify-content-center">
+        <button class="button">BUY 1 YEAR</button>
+        <h1 class="text-center text-white">$12.99</h1>
+        <p class="text-center text-white">$1.08/month</p>
+      </div>
+    </div>
+
+    <div class="table-container d-flex justify-content-center mx-5 mt-5">
+      <table class="table table-borderless">
+        <thead>
+          <tr>
+            <th scope="col"></th>
+            <th scope="col"></th>
+            <th scope="col" class="text-center d-md-none">3 MONTHS</th>
+            <th scope="col" class="text-center d-md-none">1 YEAR</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="border-bottom mt-1">
+            <th scope="row border-bottom border border-light"></th>
+            <td class="text-paragraph align-middle col-6 col-md-4">Unlimitted access to all tutorials</td>
+            <td class="text-center col-4 col-md-4"><img src="./images/Checked.png" class="combined-shape" alt=""></td>
+            <td class="text-center col-2 col-md-4"><img src="./images/Checked.png" class="combined-shape" alt=""></td>
+          </tr>
+          <tr class="border-bottom">
+            <th scope="row border-bottom border border-light"></th>
+            <td class="text-paragraph align-middle">Access SmileSchool private forum</td>
+            <td class="text-center"><img src="./images/Checked.png" class="combined-shape" alt=""></td>
+            <td class="text-center"><img src="./images/Checked.png" class="combined-shape" alt=""></td>
+          </tr>
+          <tr class="border-bottom">
+            <th scope="row"></th>
+            <td class="text-paragraph align-middle">Access Smiles contests & Smiles Analysis</td>
+            <td class="text-center"><img src="./images/Checked.png" class="combined-shape" alt=""></td>
+            <td class="text-center"><img src="./images/Checked.png" class="combined-shape" alt=""></td>
+          </tr>
+          <tr class="border-bottom">
+            <th scope="row"></th>
+            <td class="text-paragraph align-middle">Get a free toothbrush</td>
+            <td class="text-center"></td>
+            <td class="text-center"><img src="./images/Checked.png" class="combined-shape" alt=""></td>
+          </tr>
+          <tr>
+            <th scope="row"></th>
+            <td class="text-paragraph align-middle"><img src="./images/signal.png" class="signal-image mt-2" alt="">
+              <p>Exclusive discount on all Signal products</p>
+            </td>
+            <td class="text-center"></td>
+            <td class="text-center"><img src="./images/Checked.png" class="combined-shape" alt="">
+            </td>
+          </tr>
+        </tbody>
+      </table>
     </div>
     <!-- break -->
   </header>

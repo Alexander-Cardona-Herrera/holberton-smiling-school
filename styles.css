@@ -19,8 +19,18 @@
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 700;
     padding-left: 18px;
-    padding-right: 18px; 
+    padding-right: 18px;
+    color: white; 
 }
+
+.selected {
+    color: #C271FF !important;
+    text-decoration: underline;
+    text-decoration-color: white !important;
+    text-decoration-thickness: 2px;
+    text-underline-position: under;
+}
+
 
 .header-1 {
     font-size: 120px;
@@ -434,9 +444,71 @@ strong {
 
 /* Courses Search Filter */
 
-.filters {
+.div-search-filter {
     background-color: #C271FF;
-    height: 138px;
+}
+
+.btn-dropdown {
+    width: 100%;
+    background: #D195FF !important;
+    border-radius: 3px 3px 0px 0px !important;
+    color: #FFFFFF !important;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 300 !important;
+    font-size: 23px !important;
+    line-height: 29px !important;
+}
+
+.btn-dropdown::placeholder {
+    color: #FFFFFF !important;
+}
+
+.dropdown-toggle::after {
+    margin-left: 230px;
+}
+
+.dropdown-menu {
+    width: 92%
+}
+
+.dropdown-menu a:hover {
+    color: #C271FF;
+}
+
+.dropdown-item {
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 300 !important;
+    font-size: 15px;
+    line-height: 29px;
+}
+
+.label-select {
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+    height: 43px;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #FFFFFF;
+    margin-top: 3px;
 }
 
 /* videos section */
@@ -460,10 +532,6 @@ strong {
 }
 
 /* prices section */
-
-.prices {
-    min-height: 760px;
-}
 
 .header-3 {
     font-size: 32px;
@@ -522,4 +590,95 @@ strong {
     color: white;
     line-height: 75px;
 }
+
+/*Prices Table*/
+
+.table-container {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.buttons-container button {
+    background-color: #C271FF;
+    width: 162px;
+    height: 44px;
+    border-radius: 22px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-family: Source Sans Pro;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    border: #C271FF;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 30px;
+}
+
+body>header>nav>div.table-container.d-flex.justify-content-center.mt-3>table>tbody>tr:nth-child(5)>td.text-paragraph.align-middle>img {
+    width: 88px;
+    height: 35px;
+    margin-bottom: 4px;
+}
+
+.table .combined-shape {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 28px;
+    height: 28px;
+}
+
+.table .text-paragraph {
+    font-family: Source Sans Pro;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    margin: auto 0 auto 0;
+    justify-content: center;
+    color: #F2F2F2 !important;
+}
+
+.buttons-container .button-container h1 {
+    font-family: Source Sans Pro;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 44px;
+    line-height: 55px;
+}
+
+.buttons-container .button-container p {
+    font-family: Source Sans Pro;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 15px;
+    margin: auto 0 auto 0;
+    justify-content: center;
+    color: #F2F2F2;
+}
+
+.table thead th {
+    font-family: Source Sans Pro;
+    font-style: 12px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+.signal-image {
+    width: 88px;
+    height: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
